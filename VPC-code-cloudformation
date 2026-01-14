@@ -18,7 +18,7 @@ Resources:
   MyIGW:
     Type: AWS::EC2::InternetGateway
 
-  AttachIGW:
+  AttachIGW:555
     Type: AWS::EC2::VPCGatewayAttachment
     Properties:
       VpcId: !Ref MyVPC
